@@ -32,10 +32,40 @@ li{
     height: 120px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
     text-transform: uppercase;
+}
+.link_li:hover {
+    background-color: #110e0e;
+    border-radius: 10px;
+    padding: 5px;
+}
+.projection img{
+    width: 280px;
+    height: 410px;
+    padding-top: 100px;
+    margin-left: 50px;
+    justify-content: flex-end;
+}
+.sweep img{
+    width: 280px;
+    height: 410px;
+    padding-top: 100px;
+    margin-right: 50px;
+    
+}
+.sweep{
+    float: right;
+}
 
+.choke img{
+    width: 280px;
+    height: 410px;
+    padding-top: 100px;
+    margin-right: 50px;
+    margin-top: 350px;
+    
 }
