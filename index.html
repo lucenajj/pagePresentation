@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Page Apresentation</title>
 </head>
 <header>
@@ -14,6 +14,7 @@
     <nav>
         <ul>
             <li class="link_li"><a href="#home">Home</li></a>
+            <li class="link_li"><a href="#home">Cicero Costha</li></a>           
             <li class="link_li"><a href="#projection"> Projection</li>
             <li class="link_li"><a href="#sweep">Sweep</li></a>
             <li class="link_li"><a href="#choke">Choke</li></a>
@@ -22,6 +23,7 @@
         </ul> 
     </nav>
 
+
 </header>
 <body >
 <div class="container_projection">
@@ -29,12 +31,12 @@
         <img class="img_projection" src="./image/O-soto-gari2.png" alt="projection">
     </div>
     <div class="text_projection">
-        <div class="nage_waza">PROJEÇÃO</BR>
-            Nage-waza (técnicas de arremesso, 投げ技).
+        <div class="nage_waza">Projeção</div>
+            <div> Nage-waza (técnicas de arremesso, 投げ技)
         </div></br>
         Essa técnica tem por finalizade fazer com que o 
         adversário encoste suas costas ao chão fazendo 
-        assim que o ippon aconteça (No judô)!</br></br>
+        assim que o ippon aconteça (No judô)!</br>
         No Jiu Jitsu, a luta dará continuidade até que o adversário
         seja vencido por ponto ou por finalização, sendo que por ponto a luta
         durará conforme sua graduação e o tempo  referente a mesma!
@@ -45,11 +47,11 @@
         <img class="img_sweep" src="./image/sweep.png" alt="sweep">
     </div>
     <div class="text_sweep">
-       <div id="sweep"> SWEEP</div></br>
-            Nage-waza (técnicas de arremesso, 投げ技).</br> 
+       <div id="sweep"> SWEEP</div>
+            <div>Nage-waza (técnicas de arremesso, 投げ技).</div></br> 
             Essa técnica tem por finalizade fazer com que o 
         adversário encoste suas costas ao chão fazendo 
-        assim que o ippon aconteça (No judô)!</br></br>
+        assim que a raspagem acontece (No Jiu Jitsu)!</br>
         No Jiu Jitsu, a luta dará continuidade até que o adversário
         seja vencido por ponto ou por finalização, sendo que por ponto a luta
         durará conforme sua graduação e o tempo  referente a mesma!
@@ -62,15 +64,14 @@
     </div>
     <div class="text_choke">
         <div id="choke">CHOKE</BR>
-            Nage-waza (técnicas de arremesso, 投げ技).
+            Shime-waza (técnicas de estrangulamento, 絞技)
         </div></br>
         
-        Essa técnica tem por finalizade fazer com que o 
-        adversário encoste suas costas ao chão fazendo 
-        assim que o ippon aconteça (No judô)!</br></br>
-        No Jiu Jitsu, a luta dará continuidade até que o adversário
-        seja vencido por ponto ou por finalização, sendo que por ponto a luta
-        durará conforme sua graduação e o tempo  referente a mesma!
+        Shime waza (絞技?) é o nome do grupo de técnicas de judô e jiu-jitsu tradicional
+        que engloba as técnicas de estrangulamento.
+        O shime waza do judô tem origem no foco das técnicas de katame waza
+        (técnicas de domínio de solo) da escola kitō-ryū, uma das escolas de jujutsu 
+        estudadas pelo fundador do judô, Sensei Jigoro Kano.
     </div>
 </div>
 <div class="container_arm-bar">
@@ -78,21 +79,28 @@
         <img class="img_arm-bar" src="./image/armbar3.png" alt="arm-bar">
     </div>
     <div class="text_arm-bar">
-        <div id="arm-bar">ARM-BAR</div> </BR>
-            Nage-waza (técnicas de arremesso, 投げ技).
-        </br>
+        <div id="arm-bar">ARM-BAR</div>
+        <div>Kansetsu-waza (técnicas de luxação, 関節技).</div></br>
         
-        Essa técnica tem por finalizade fazer com que o 
-        adversário encoste suas costas ao chão fazendo 
-        assim que o ippon aconteça (No judô)!</br></br>
-        No Jiu Jitsu, a luta dará continuidade até que o adversário
-        seja vencido por ponto ou por finalização, sendo que por ponto a luta
-        durará conforme sua graduação e o tempo  referente a mesma!
-        teste
+        A chave de braço — também conhecida pelo termo em inglês armlock, é um golpe de jiu-jitsu
+        e judô no qual o lutador pega o braço do adversário e coloca-o entre suas pernas, ficando com o punho dele, seguro por suas mãos, no centro de seu próprio peito, dominando-o com
+        o polegar do adversário apontado para cima.
     </div>
 </div>
 </body>
-<footer class="footer">Teste</footer>
+<footer class="footer">
+    <section class="content">
+    <div id="contact">
+        <h3>Formulário de Contato</h3>
+        <form class="form_contact" method="POST" action="./email/email.js">
+            <input class="field" type="text" name="name" id="" placeholder="Nome"><br>
+            <input class="field" type="email" name="email" id="" placeholder="Email">
+            <textarea class="text_area" name="message" placeholder="Digite uma mensagem!"></textarea>
+            <input class="submit" type="submit" value="Enviar">
+        </form>
+    </div>
+</section>
+</footer>
 
 
 </html>

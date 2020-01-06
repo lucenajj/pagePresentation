@@ -1,17 +1,18 @@
 body {
   margin: auto;
-  width: 1400px;
+  max-width: 1400px;
   background-image: url("./image/background02.jpg");
 }
 
 header {
+  background-color: #6b7d9e;
   width: 100%;
-  height: 100px;
+  height: 150px;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #233454;
+  border-radius: 15px;
+  
 }
 * {
   margin: 0;
@@ -20,7 +21,6 @@ header {
 ul {
   display: flex;
   justify-content: flex-end;
-
   list-style: none;
   margin-right: 30px;
   list-style: none;
@@ -34,8 +34,10 @@ li {
 }
 
 .img_logo img {
-  padding-top: 30px;
+  padding-top: 5px;
   width: 120px;
+  overflow: hidden;
+  
 }
 
 a {
@@ -52,7 +54,6 @@ a {
 .container_projection {
   display: flex;
   width: 100%;
-  background-color: rgba(221, 76, 50, 0.467);
   align-items: center;
 }
 .img_projection {
@@ -68,7 +69,6 @@ a {
 .container_sweep {
   display: flex;
   width: 100%;
-  background-color: #999;
   align-items: center;
   flex-direction: row-reverse;
   float: right;
@@ -89,7 +89,6 @@ a {
   display: flex;
   width: 100%;
   align-items: center;
-  background-color: #987;
 }
 .img_choke {
   flex: 1;
@@ -108,7 +107,6 @@ a {
   float: right;
   width: 100%;
   align-items: center;
-  background-color: #233454;
 }
 .img_arm-bar {
   flex: 1;
@@ -163,7 +161,47 @@ a {
 }
 .footer {
   display: flex;
-  background-color: #fff;
+  justify-content: flex-end;
+  background-color: #3a3838;
   height: 400px;
   width: 100%;
+  border-radius: 5px;
 }
+#contact{
+  width: 100%;
+  max-width: 500px;
+  margin-right: 180px;
+  padding-right: 30px;
+}
+h3{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 150px;
+  color: #fff;
+}
+.form_contact{
+  display: flex;
+  flex-direction: column;
+}
+.field{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.text_area{
+  margin-top: 10px;
+  padding-top: 10px;
+  height: 150px;
+  border-radius: 5px;
+}
+.submit{
+  padding: 15px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
